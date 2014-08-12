@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Creative Web Developer">
+	<meta name="keywords" content="web developer, front end web developer, freelance web developer,web designer, portfolio, designer, package design, editorial design, sports design, basketball wed design, sports web design, web design, resume, resume template, typography, wordpress theme designer, personal website design">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>One Page Resume Template</title>
+	<link href='http://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+
+	<style>
+	* { 
+	 	-moz-box-sizing: border-box; 
+	 	-webkit-box-sizing: border-box; 
+	 	box-sizing: border-box; 
+	}
+
+	body {
+		/* remove default spaces */
+		padding: 0;
+		margin: 0;
+		/* setting common type styles */
+		font-family: 'OpenSansLight', Arial, sans-serif;
+		color: #000;
+		background: #FFF;
+	}
+	/* remove defaults */
+	h1, h2, h3 {
+		margin: 0;
+		font-weight: normal;
+	}
+
+	/* reset lists */
+	ul {
+		margin: 0;
+		padding: 0;
+		/*list-style-type: none;*/
+	}
+	a {
+		/* override default styles */
+		text-decoration: none;
+		outline: none; /* removes dotted border from Firefox */
+		color: #9db0ac;
+	}
+
+	a:hover {
+		color: #d9a50c;
+	}
+
+	p {
+		margin: 0;
+	}
+
+
+	@media (min-width: 1224px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin-left: 450px;
+			margin-right: 450px;
+		}
+
+		.pdf a {
+			font-size: 25px;
+		}
+
+		.h {
+			text-align: center;
+			margin-top: 40px;
+		}
+
+		.punchBox {
+			margin: 50px 50px;
+		}
+
+		.punchLines {
+			padding: 30px 30px;
+			font-size: 25px;
+		}
+
+		.education {
+			width: 30%;
+		}
+
+		.education h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 575px;
+		}
+
+		.schools {
+			width: 65%;
+			float: right;
+	}
+
+		.learning {
+			margin-top: 15px;
+		}
+
+		.learning a {
+			/*padding: 5px 5px;*/
+			font-size: 25px;
+	}
+
+		.learning h2 {
+			/*border: 1px solid blue;*/
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+	}
+
+		.learning span {
+			right: 15px;
+	}
+
+		.learning ul li {
+			/*display: list-item;*/
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.credentials {
+			width: 75%;
+	}
+
+		.profile {
+			width: 30%;
+		}
+
+		.profile h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 555px;
+		}
+
+		.skills h3 {
+			font-size: 25px;
+			margin-top: 15px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.experience {
+			width: 30%;
+		}
+
+		.experience h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 1850px;
+		}
+
+		.work {
+			width: 65%;
+		}
+
+		.employment {
+			margin-top: 15px;
+	}
+
+		.employment a {
+			font-size: 25px;
+		}
+
+
+		.employment h2 {
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+		}
+
+		.employment span {
+			right: 15px;
+		}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.pdf {
+			padding: 30px 30px;
+			margin-left: 300px;
+			margin-right: 300px;
+		}
+
+		.pdf a {
+			font-size: 25px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchLines {
+			padding: 100px 100px;
+			font-size: 25px;
+		}
+
+		.education {
+			width: 30%;
+		}
+
+		.education h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 575px;
+		}
+
+		.schools {
+			width: 65%;
+			float: right;
+	}
+
+		.learning {
+			margin-top: 15px;
+		}
+
+		.learning a {
+			/*padding: 5px 5px;*/
+			font-size: 25px;
+	}
+
+		.learning h2 {
+			/*border: 1px solid blue;*/
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+	}
+
+		.learning span {
+			right: 15px;
+	}
+
+		.learning ul li {
+			/*display: list-item;*/
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.credentials {
+			width: 75%;
+	}
+
+		.profile {
+			width: 30%;
+		}
+
+		.profile h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 555px;
+		}
+
+		.skills h3 {
+			font-size: 25px;
+			margin-top: 15px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.experience {
+			width: 30%;
+		}
+
+		.experience h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 1850px;
+		}
+
+		.work {
+			width: 65%;
+		}
+
+		.employment {
+			margin-top: 15px;
+	}
+
+		.employment a {
+			font-size: 25px;
+		}
+
+
+		.employment h2 {
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+		}
+
+		.employment span {
+			right: 15px;
+		}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px){
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin: 0px 120px;
+		}
+
+		.pdf a {
+			font-size: 30px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchBox {
+			margin-top: -20px;
+		}
+
+		.punchLines {
+			padding: 120px 120px;
+			font-size: 25px;
+		}
+
+		.education {
+			width: 30%;
+		}
+
+		.education h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 575px;
+		}
+
+		.schools {
+			width: 65%;
+			float: right;
+	}
+
+		.learning {
+			margin-top: 15px;
+		}
+
+		.learning a {
+			/*padding: 5px 5px;*/
+			font-size: 25px;
+	}
+
+		.learning h2 {
+			/*border: 1px solid blue;*/
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+	}
+
+		.learning span {
+			right: 15px;
+	}
+
+		.learning ul li {
+			/*display: list-item;*/
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.credentials {
+			width: 75%;
+	}
+
+		.profile {
+			width: 30%;
+		}
+
+		.profile h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 555px;
+		}
+
+		.skills h3 {
+			font-size: 25px;
+			margin-top: 15px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.experience {
+			width: 30%;
+		}
+
+		.experience h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 1850px;
+		}
+
+		.work {
+			width: 65%;
+		}
+
+		.employment {
+			margin-top: 15px;
+	}
+
+		.employment a {
+			font-size: 25px;
+		}
+
+
+		.employment h2 {
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+		}
+
+		.employment span {
+			right: 15px;
+		}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+	/* Landscape phones and down */
+	@media (min-device-width : 320px) and (max-width: 480px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin: 50px 50px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchBox {
+			margin-top: -20px;
+		}
+
+		.punchLines {
+			padding: 50px 50px;
+			font-size: 20px;
+		}
+
+		.education {
+			width: 30%;
+		}
+
+		.education h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 575px;
+		}
+
+		.schools {
+			width: 65%;
+			float: right;
+	}
+
+		.learning {
+			margin-top: 15px;
+		}
+
+		.learning a {
+			/*padding: 5px 5px;*/
+			font-size: 25px;
+	}
+
+		.learning h2 {
+			/*border: 1px solid blue;*/
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+	}
+
+		.learning span {
+			right: 15px;
+	}
+
+		.learning ul li {
+			/*display: list-item;*/
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.credentials {
+			width: 75%;
+	}
+
+		.profile {
+			width: 30%;
+		}
+
+		.profile h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 555px;
+		}
+
+		.skills h3 {
+			font-size: 25px;
+			margin-top: 15px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.experience {
+			width: 30%;
+		}
+
+		.experience h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			height: 1850px;
+		}
+
+		.work {
+			width: 65%;
+		}
+
+		.employment {
+			margin-top: 15px;
+	}
+
+		.employment a {
+			font-size: 25px;
+		}
+
+
+		.employment h2 {
+			width: 60%;
+			font-size: 15px;
+			margin: 13px 13px;
+		}
+
+		.employment span {
+			right: 15px;
+		}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+
+	/*default styling*/
+
+	header {
+		/*border: 1px solid blue;*/
+	}
+
+	header h1 {
+		font-family: 'Cabin', sans-serif;
+		text-align: center;
+		font-size: 50px;
+		letter-spacing: 5px;
+		/*border-bottom: 2px solid #999;*/
+	}
+
+	header h5 {
+		/*border: 1px solid red;*/
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+	}
+
+	.pdf {
+		background: #000;
+		text-align: center;
+		border: 1px solid #000;	
+		border-radius: 5px;
+		cursor: pointer;
+	}
+
+	.pdf a {
+		color: #FFF;
+		font-family: 'Cabin', sans-serif;
+	}
+
+	.pdf:hover {
+		border-color: #edfe00;
+	}
+
+	.punchBox {
+		text-align: center;
+	}
+
+	.punchLines {
+		/*border: 1px solid red;*/
+	}
+
+	.education {
+		/*border: 1px solid red;*/
+		float: left;
+	}
+
+	.education h3 {
+		font-family: 'Cabin', sans-serif;
+		border-right: 1px solid #000;
+	}
+
+	.learning a {
+		/*border: 1px solid black;*/
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		border-bottom: 1px dotted #999;
+	}
+
+	.learning span {
+		position: absolute;
+	}
+
+	.learning a:hover {
+		color: #9db0ac;
+	}
+
+	.profile {
+		float: left;
+		clear: both;
+
+	}
+
+	.profile h3 {
+		font-family: 'Cabin', sans-serif;
+		border-right: 1px solid #000;
+	}
+
+	.skills h3 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+	}
+
+	.experience {
+		float: left;
+		clear: both;
+	}
+
+	.work {
+		float: right;
+	}
+
+	.experience h3 {
+		font-family: 'Cabin', sans-serif;
+		border-right: 1px solid #000;
+	}
+
+	.employment a {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		border-bottom: 1px dotted #999;
+	}
+
+	.employment a:hover {
+		color: #9db0ac;
+	}
+
+	.employment span {
+		position: absolute;
+	}
+
+	.references {
+		float: left;
+		clear: both;
+	}
+
+	.contacts {
+		float: right;
+	}
+
+	.references h3 {
+		font-family: 'Cabin', sans-serif;
+		border-right: 1px solid #000;
+
+	}
+
+	.request h2 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+	}
+	</style>
+</head>
+<body>
+	<div class="h">
+		<img src="images/H.jpg" height="250" width="250" alt="">
+	</div><!-- end of h -->
+	<header>
+		<h1>Habib Akbar</h1>
+		<h5>Creative Web Developer</h5>
+	</header>
+	<div class="pdf">
+		<a href="">Download PDF resume</a>
+	</div><!-- end of pdf -->
+	<div class="punchBox">
+		<div class="punchLines">
+			<h3>I am a passionate Web Developer with extensive mobile experience. I want to create high-performing, reliable, accessible digital experiences for users.</h3>
+		</div><!-- end of punchLines -->
+		<div class="punchLines">
+			<h3>I am comfortable working in a highly collaborative, fast­paced environment. I have a passion for beautiful, maintainable code, an eye for good design/UX, and super­human attention to detail.</h3>
+		</div><!-- end of punchLines -->
+		<div class="punchLines">
+			<h3>I want to become part of an innovative company that will allow me to build on my current skills and experience while further enhancing my professional development in the field.
+			</h3>
+		</div><!-- end of punchLines -->
+	</div><!-- end of punchBox -->
+	<div class="education">
+		<h3>Education</h3>	
+	</div><!-- end of education -->
+	<div class="schools">
+		<div class="learning">
+		<a href="http://hackeryou.com/about" target="blank">HackerYou</a>
+		<h2><em>Front End Web Development</em><span>(2014)</span></h2>
+		<ul class="credentials">
+			<li>Trained by industry leading professionals the best practices for web design and development.</li>
+			<li>Web development using HTML5, CSS3, JavaScript, JQuery, WordPress, API's and Responsive Design.</li>
+			<li>Custom WordPress theme development.</li>
+			<li>Wireframing, prototyping with front-end frameworks (eg. Foundation) and creating style guides.</li>
+		</ul>
+		<a href="http://seneca.on.ca" target="blank">Seneca College</a>
+		<h2><em>Business Management</em><span>(2004-2006)</span></h2>
+
+		<a href="http://tdsb.on.ca" target="blank">Cedarbrae Collegiate</a>
+		<h2><em>French Immersion</em><span>(1998-2003)</span></h2>
+		</div><!-- end of learning -->
+	</div><!-- end of schools -->
+
+	<div class="profile">
+		<h3>Profile</h3>	
+	</div><!-- end of profile -->
+	<div class="schools">
+		<div class="skills">
+			<h3>Skills:</h3>
+				<ul class="listings">
+					<li><em>Bilingual</em> - Speak, read and write in both English and French.</li>
+					<li>Social Media strategies to support engagement and site traffic.</li>
+					<li>Independent thinker and self-starter.</li>
+					<li>Great communication and leadership qualities.</li>
+					<li>HTML5</li>
+					<li>CSS3</li>
+					<li>JavaScript</li>
+					<li>JQuery</li>
+					<li>API's</li>
+					<li>Responsive Design</li>
+					<li>Wordpress</li>
+				</ul><!-- end of listings -->
+		</div><!-- end of skills -->
+	</div><!-- end of schools -->
+
+	<div class="experience">
+		<h3>Experience</h3>
+	</div><!-- end of experience -->
+	<div class="work">
+		<div class="employment">
+			<a href="http://telus.com">TELUS</a>
+			<h2><em>Business Analyst II</em><span>(2013-2014)</span></h2>
+			<ul class="listings">
+				<li>Managed and monitored all inventory levels at Corporate Business Stores and provided guidance about sales patterns, timing of future orders and inventory strategies relative to the client base.</li>
+				<li>Inventory Management and Strategies- Planning.</li>
+				<li>Forecasting- Developing of Inventory POS software and SAP- Reporting.</li>
+				<li>Anticipating end of life product flow.</li>
+			</ul><!-- end of listings -->
+			<a href="http://telus.com">TELUS</a>
+			<h2><em>Supply Coordinator</em><span>(2011-2013)</span></h2>
+			<ul class="listings">
+				<li>Portfolio consisting of 50+ French Canada corporate stores across Toronto, Montreal and Quebec.</li>
+				<li>Manage Product launches based on allocated inventory for corporate channels and national retailers.</li>
+				<li>Lead on Real Estate support for new store openings and closures.</li>
+			</ul><!-- end of listings -->
+			<a href="http://telus.com">TELUS</a>
+			<h2><em>Planning Analyst</em><span>(2008-2011)</span></h2>
+			<ul class="listings">
+				<li>Responsible for forecasting sales and inventory data to ensure appropriate allocation of smart phones to corporate stores.</li>
+				<li>Established weekly high level report to ensure the execution of sales and promotional initiatives.</li>
+				<li>Effectively worked with corporate stores to resolve inventory complaints, issues and suggestions.</li>
+				<li>Responsible for support and management of inventories to the corporate retail channel via SAP.</li>
+				<li>HSPA network launch in 2009.</li>
+				<li>Apple iPhone 4 launch in corporate channel.</li>
+				<li>Use SAP MRP coding for all active and discontinued sku's across corporate stores.</li>
+			</ul><!-- end of listings -->
+			<a href="http://telus.com">TELUS</a>
+			<h2><em>Logistics Associate</em><span>(2007-2008)</span></h2>
+			<ul class="listings">
+				<li>Responsible for providing retail partners with superior results and exceptional service for all mobile repair-related processes and requests.</li>
+				<li>Prime for mediation of repair strategies between retail partner and vendor repair partners.</li>
+				<li>Achieved Certificate of Excellence in Effective Resolutions for Escalated Repair issues.</li>
+			</ul><!-- end of listings -->
+		</div><!-- end of employment -->
+	</div><!-- end of work -->
+	<div class="references">
+		<h3>References</h3>
+	</div><!-- end of references -->
+	<div class="contacts">
+		<div class="request">
+			<h2>Available on Request</h2>
+		</div><!-- end of request -->
+	</div><!-- end of contacts -->
+</body>
+</html>
