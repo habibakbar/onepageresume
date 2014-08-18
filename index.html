@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Creative Web Developer">
+	<meta name="keywords" content="web developer, front end web developer, freelance web developer,web designer, portfolio, designer, package design, editorial design, sports design, basketball wed design, sports web design, web design, resume, resume template, one page resume typography, wordpress theme designer, personal website design">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>One Page Resume Template</title>
+	<link href='http://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Dancing+Script:700' rel='stylesheet' type='text/css'>
+	<style>
+	* { 
+	 	-moz-box-sizing: border-box; 
+	 	-webkit-box-sizing: border-box; 
+	 	box-sizing: border-box; 
+	}
+
+	body {
+		/* remove default spaces */
+		padding: 0;
+		margin: 0;
+		/* setting common type styles */
+		font-family: 'OpenSansLight', Arial, sans-serif;
+		color: #000;
+		background: #FFF;
+	}
+	/* remove defaults */
+	h1, h2, h3 {
+		margin: 0;
+		font-weight: normal;
+	}
+
+	/* reset lists */
+	ul {
+		margin: 0;
+		padding: 0;
+		/*list-style-type: none;*/
+	}
+	a {
+		/* override default styles */
+		text-decoration: none;
+		outline: none; /* removes dotted border from Firefox */
+		color: #9db0ac;
+	}
+
+	a:hover {
+		color: #d9a50c;
+	}
+
+	p {
+		margin: 0;
+	}
+
+
+	@media (min-width: 1224px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.address a {
+			font-size: 25px;
+		}
+
+		.number p {
+			font-size: 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin-left: 450px;
+			margin-right: 450px;
+		}
+
+		.pdf a {
+			font-size: 25px;
+		}
+
+		.h {
+			text-align: center;
+			margin-top: 40px;
+		}
+
+		.punchBox {
+			margin: 50px 50px;
+		}
+
+		.punchLines {
+			padding: 30px 30px;
+			font-size: 25px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+		.education {
+			margin: 0 500px 0 500px;
+		}
+
+		.bullets {
+			margin: 30px 400px 30px 400px;
+		}
+
+		.experience {
+			margin: 0 500px 0 500px;
+		}
+
+	}
+	/* Portrait tablet and small desktops */
+	@media (max-width: 940px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.address a {
+			font-size: 25px;
+		}
+
+		.number p {
+			font-size: 20px;
+		}
+
+		.pdf {
+			padding: 30px 30px;
+			margin-left: 300px;
+			margin-right: 300px;
+		}
+
+		.pdf a {
+			font-size: 25px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchLines {
+			padding: 100px 100px;
+			font-size: 25px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+	/* Landscape phone to portrait tablet */
+	@media (max-width: 768px){
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.address a {
+			font-size: 25px;
+		}
+
+		.number p {
+			font-size: 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin: 0px 120px;
+		}
+
+		.pdf a {
+			font-size: 30px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchBox {
+			margin-top: -20px;
+		}
+
+		.punchLines {
+			padding: 120px 120px;
+			font-size: 25px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding: 20px 20px;
+			/*height: 1850px;*/
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+	/* Landscape phones and down */
+	@media (min-device-width : 320px) and (max-width: 480px){
+
+		header h1 {
+			padding: 37px 37px;
+			margin-bottom: -105px;
+		}
+
+		header h5 {
+			font-size: 25px;
+			padding: 20px 20px;
+		}
+
+		.address a {
+			font-size: 25px;
+		}
+
+		.number p {
+			font-size: 20px;
+		}
+
+		.pdf {
+			padding: 40px 40px;
+			margin: 50px 50px;
+		}
+
+		.pdf a {
+			font-size: 21px;
+		}
+
+		.h {
+			text-align: center;
+		}
+
+		.punchBox {
+			margin-top: -20px;
+		}
+
+		.punchLines {
+			padding: 50px 50px;
+			font-size: 20px;
+		}
+
+		.listings {
+			width: 75%;
+		}
+
+		.listings li {
+			margin-left: 10px;
+			padding: 10px 10px;
+	}
+
+		.references {
+			width: 30%;
+		}
+
+		.references h3 {
+			font-size: 20px;
+			padding-left: 13px;
+			height: 75px;
+		}
+
+		.contacts {
+			width: 60%;
+			margin: 13px 13px;
+		}
+
+		.request h2 {
+			font-size: 15px;
+			margin: 13px 13px;
+
+			margin-left: 10px;
+			padding: 10px 10px;
+		}
+
+	}
+
+	/*default styling*/
+
+	header {
+		/*border: 1px solid blue;*/
+	}
+
+	header h1 {
+		font-family: 'Cabin', sans-serif;
+		text-align: center;
+		font-size: 50px;
+		letter-spacing: 5px;
+		/*border-bottom: 2px solid #999;*/
+	}
+
+	header h5 {
+		/*border: 1px solid red;*/
+		font-family: 'Dancing Script', cursive;
+		text-align: center;
+	}
+
+	.contactBox {
+		text-align: center;
+	}
+
+	.email {
+		/*border: 1px solid red;*/
+		margin-bottom: 20px;
+	}
+
+	.address a {
+		font-family: 'Dancing Script', cursive;
+		color: #000;
+	}
+
+	.address a:hover {
+		color: #ADADAD;
+
+	}
+
+	.phone {
+		/*border: 1px solid green;*/
+		margin-bottom: 20px;
+	}
+
+	.number p {
+		font-family: 'Dancing Script', cursive;
+	}
+
+	.download {
+		clear: both;
+	}
+
+	.pdf {
+		background: #000;
+		text-align: center;
+		border: 1px solid #000;	
+		border-radius: 5px;
+		cursor: pointer;
+		/*clear: both;*/
+	}
+
+	.pdf a {
+		color: #FFF;
+		font-family: 'Cabin', sans-serif;
+	}
+
+	.pdf:hover {
+		border-color: #edfe00;
+	}
+
+	.punchBox {
+		text-align: center;
+	}
+
+	.punchLines {
+		/*border: 1px solid red;*/
+	}
+
+	.references {
+		float: left;
+		clear: both;
+	}
+
+	.contacts {
+		float: right;
+	}
+
+	.references h3 {
+		font-family: 'Cabin', sans-serif;
+		border-right: 1px solid #000;
+
+	}
+
+	.request h2 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+	}
+
+	.container {
+		/*border: 1px solid blue;*/
+		max-width: 100%;
+		text-align: center;
+		margin: 20px 20px;
+	}
+	
+	.education {
+		border-top: 1px dotted #000;
+		border-bottom: 1px dotted #000;
+	}
+
+	.education h3 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		font-size: 25px;
+	}
+
+	.school {
+		margin: 40px 40px;
+
+	}
+
+	.school a {
+		background: #000;
+		font-weight: bold;
+		font-size: 20px;
+		color: #FFF;
+		padding: 15px 15px;
+	}
+
+	.program {
+		margin: 50px 50px;
+	}
+
+	.program a {
+		background: #000;
+		color: #FFF;
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+
+	.year {
+		margin: 30px 30px;
+	}
+
+	.bullets {
+		font-size: 15px;
+	}
+
+	.bullets li {
+		padding: 20px 20px;
+	}
+
+	.work {
+		margin: 40px 40px;
+	}
+
+	.work a {
+		background: #000;
+		font-weight: bold;
+		font-size: 20px;
+		color: #FFF;
+		padding: 15px 15px;
+	}
+
+	.position {
+		margin: 50px 50px;
+	}
+
+	.position a {
+		background: #000;
+		color: #FFF;
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+
+	.experience {
+		border-top: 1px dotted #000;
+		border-bottom: 1px dotted #000;
+	}
+
+	.experience h3 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		font-size: 25px;
+	}
+	</style>
+</head>
+<body>
+	<div class="h">
+		<img src="images/H.jpg" height="250" width="250" alt="">
+	</div><!-- end of h -->
+	<header>
+		<h1>Habib Akbar</h1>
+		<h5>Creative Web Developer</h5>
+	</header>
+	<div class="contactBox">
+		<div class="email">
+			<img src="images/emailme.png" height="64" width="64" alt="">
+			<div class="address">
+				<a href="mailto: habib@hakbar.com">habib@hakbar.com</a>
+			</div><!-- end of address -->
+		</div><!-- end of email -->
+		<div class="phone">
+			<img src="images/phone.png" height="64" width="64" alt="">
+			<div class="number">
+				<p>416.953.9437</p>
+			</div><!-- end of number -->
+		</div><!-- end of phone -->
+	</div><!-- end of contactBox -->
+	<div class="download">
+		<div class="pdf">
+			<a href="">Download PDF resume</a>
+		</div><!-- end of pdf -->
+	</div><!-- end of download -->
+	<div class="punchBox">
+		<div class="punchLines">
+			<h3>I am a passionate Web Developer with extensive mobile experience. I want to create high-performing, reliable, accessible digital experiences for users.</h3>
+		</div><!-- end of punchLines -->
+		<div class="punchLines">
+			<h3>I am comfortable working in a highly collaborative, fast­paced environment. I have a passion for beautiful, maintainable code, an eye for good design/UX, and super­human attention to detail.</h3>
+		</div><!-- end of punchLines -->
+		<div class="punchLines">
+			<h3>I want to become part of an innovative company that will allow me to build on my current skills and experience while further enhancing my professional development in the field.
+			</h3>
+		</div><!-- end of punchLines -->
+	</div><!-- end of punchBox -->
+	<div class="container">
+		<div class="education">
+			<h3>Education</h3>	
+		</div><!-- end of education -->
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">HackerYou</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">Front End Web Development</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(2014)</em></span>
+		</div><!-- end of year -->
+			<ul class="bullets">
+				<li>Trained by industry leading professionals the best practices for web design and development.
+				</li>
+				<li>Web development using HTML5, CSS3, JavaScript, JQuery, WordPress, API's and Responsive Design.
+				</li>
+				<li>Custom WordPress theme development.
+				</li>
+				<li>Wireframing, prototyping with front-end frameworks (eg. Foundation) and creating style guides.
+				</li>
+			</ul>
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">Seneca College</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">Business Management</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(2004-2006)</em></span>
+		</div><!-- end of year -->
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">Cedarbrae Collegiae</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">French Immersion</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(1998-2003)</em></span>
+		</div><!-- end of year -->
+		<div class="experience">
+			<h3>Experience</h3>	
+		</div><!-- end of experience -->
+		<div class="work">
+			<a href="http://telus.com" target="blank">TELUS</a>
+		</div><!-- end of work -->
+		<div class="position">
+			<a href="#">Business Analyst II</a>
+		</div><!-- end of position -->
+		<div class="year">
+			<span><em>(2013)</em></span>
+		</div><!-- end of year -->
+			<ul class="bullets">
+				<li>Managed and monitored all inventory levels at Corporate Business Stores and provided guidance about sales patterns, timing of future orders and inventory strategies relative to the client base.
+				</li>
+				<li>Inventory Management and Strategies- Planning.
+				</li>
+				<li>Forecasting- Developing of Inventory POS software and SAP- Reporting.
+				</li>
+				<li>Anticipating end of life product flow.
+				</li>
+			</ul>
+			<div class="work">
+				<a href="http://telus.com" target="blank">TELUS</a>
+			</div><!-- end of work -->
+			<div class="position">
+				<a href="#">Supply Coordinator</a>
+			</div><!-- end of position -->
+			<div class="year">
+				<span><em>(2011-2013)</em></span>
+			</div><!-- end of year -->
+				<ul class="bullets">
+					<li>Portfolio consisting of 50+ French Canada corporate stores across Toronto, Montreal and Quebec.
+					</li>
+					<li>Manage Product launches based on allocated inventory for corporate channels and national retailers.
+					</li>
+					<li>Lead on Real Estate support for new store openings and closures.
+					</li>
+				</ul>
+
+				<div class="work">
+					<a href="http://telus.com" target="blank">TELUS</a>
+				</div><!-- end of work -->
+				<div class="position">
+					<a href="#">Material Analyst</a>
+				</div><!-- end of position -->
+				<div class="year">
+					<span><em>(2008-2011)</em></span>
+				</div><!-- end of year -->
+					<ul class="bullets">
+						<li>Responsible for forecasting sales and inventory data to ensure appropriate allocation of smart phones to corporate stores.
+						</li>
+						<li>Established weekly high level report to ensure the execution of sales and promotional initiatives.
+						</li>
+						<li>Effectively worked with corporate stores to resolve inventory complaints, issues and suggestions.
+						</li>
+						<li>Responsible for support and management of inventories to the corporate retail channel via SAP.</li>
+						<li>HSPA network launch in 2009.</li>
+						<li>Apple iPhone 4 launch in corporate channel.</li>
+						<li>Use SAP MRP coding for all active and discontinued sku's across corporate stores</li>
+					</ul>
+
+					<div class="work">
+						<a href="http://telus.com" target="blank">TELUS</a>
+					</div><!-- end of work -->
+					<div class="position">
+						<a href="#">Logistics Associate</a>
+					</div><!-- end of position -->
+					<div class="year">
+						<span><em>(2007-2008)</em></span>
+					</div><!-- end of year -->
+						<ul class="bullets">
+							<li>Responsible for providing retail partners with superior results and exceptional service for all mobile repair-related processes and requests.
+							</li>
+							<li>Prime for mediation of repair strategies between retail partner and vendor repair partners.
+							</li>
+							<li>Achieved Certificate of Excellence in Effective Resolutions for Escalated Repair issues.
+							</li>
+						</ul>
+	</div><!-- end of container -->
+</body>
+</html>
