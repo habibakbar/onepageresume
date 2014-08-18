@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+	<title>resTest</title>
+	<style>
+
+	* { 
+	 	-moz-box-sizing: border-box; 
+	 	-webkit-box-sizing: border-box; 
+	 	box-sizing: border-box; 
+	}
+
+	body {
+		/* remove default spaces */
+		padding: 0;
+		margin: 0;
+		/* setting common type styles */
+		font-family: 'OpenSansLight', Arial, sans-serif;
+		color: #000;
+		background: #FFF;
+	}
+	/* remove defaults */
+	h1, h2, h3 {
+		margin: 0;
+		font-weight: normal;
+	}
+
+	/* reset lists */
+	ul {
+		margin: 0;
+		padding: 0;
+		/*list-style-type: none;*/
+	}
+	a {
+		/* override default styles */
+		text-decoration: none;
+		outline: none; /* removes dotted border from Firefox */
+		color: #9db0ac;
+	}
+
+	a:hover {
+		color: #d9a50c;
+	}
+
+	p {
+		margin: 0;
+	}
+
+	@media (min-width: 1224px){
+
+		.education {
+			margin: 0 500px 0 500px;
+		}
+
+		.bullets {
+			margin: 30px 400px 30px 400px;
+		}
+
+		.experience {
+			margin: 0 500px 0 500px;
+		}
+	}
+
+	@media (max-width: 940px){
+
+	}
+
+	@media (max-width: 768px){
+
+	}
+
+	@media (min-device-width : 320px) and (max-width: 480px){
+
+	}
+
+	.container {
+		/*border: 1px solid blue;*/
+		max-width: 100%;
+		text-align: center;
+		margin: 20px 20px;
+	}
+	
+	.education {
+		border-top: 1px dotted #000;
+		border-bottom: 1px dotted #000;
+	}
+
+	.education h3 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		font-size: 25px;
+	}
+
+	.school {
+		margin: 40px 40px;
+
+	}
+
+	.school a {
+		background: #000;
+		font-weight: bold;
+		font-size: 20px;
+		color: #FFF;
+		padding: 15px 15px;
+	}
+
+	.program {
+		margin: 50px 50px;
+	}
+
+	.program a {
+		background: #000;
+		color: #FFF;
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+
+	.year {
+		margin: 30px 30px;
+	}
+
+	.bullets {
+		font-size: 15px;
+	}
+
+	.bullets li {
+		padding: 20px 20px;
+	}
+
+	.experience {
+		border-top: 1px dotted #000;
+		border-bottom: 1px dotted #000;
+	}
+
+	.experience h3 {
+		font-family: 'Cabin', sans-serif;
+		color: #000;
+		font-size: 25px;
+	}
+
+	.work {
+		margin: 40px 40px;
+	}
+
+	.work a {
+		background: #000;
+		font-weight: bold;
+		font-size: 20px;
+		color: #FFF;
+		padding: 15px 15px;
+	}
+
+	.position {
+		margin: 50px 50px;
+	}
+
+	.position a {
+		background: #000;
+		color: #FFF;
+		padding: 15px 15px;
+		font-size: 15px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="education">
+			<h3>Education</h3>	
+		</div><!-- end of education -->
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">HackerYou</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">Front End Web Development</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(2014)</em></span>
+		</div><!-- end of year -->
+			<ul class="bullets">
+				<li>Trained by industry leading professionals the best practices for web design and development.
+				</li>
+				<li>Web development using HTML5, CSS3, JavaScript, JQuery, WordPress, API's and Responsive Design.
+				</li>
+				<li>Custom WordPress theme development.
+				</li>
+				<li>Wireframing, prototyping with front-end frameworks (eg. Foundation) and creating style guides.
+				</li>
+			</ul>
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">Seneca College</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">Business Management</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(2004-2006)</em></span>
+		</div><!-- end of year -->
+		<div class="school">
+			<a href="http://hackeryou.com/about" target="blank">Cedarbrae Collegiae</a>
+		</div><!-- end of school -->
+		<div class="program">
+			<a href="#">French Immersion</a>
+		</div><!-- end of program -->
+		<div class="year">
+			<span><em>(1998-2003)</em></span>
+		</div><!-- end of year -->
+		<div class="experience">
+			<h3>Experience</h3>	
+		</div><!-- end of experience -->
+		<div class="work">
+			<a href="http://telus.com" target="blank">TELUS</a>
+		</div><!-- end of work -->
+		<div class="position">
+			<a href="#">Business Analyst II</a>
+		</div><!-- end of position -->
+		<div class="year">
+			<span><em>(2013)</em></span>
+		</div><!-- end of year -->
+			<ul class="bullets">
+				<li>Managed and monitored all inventory levels at Corporate Business Stores and provided guidance about sales patterns, timing of future orders and inventory strategies relative to the client base.
+				</li>
+				<li>Inventory Management and Strategies- Planning.
+				</li>
+				<li>Forecasting- Developing of Inventory POS software and SAP- Reporting.
+				</li>
+				<li>Anticipating end of life product flow.
+				</li>
+			</ul>
+			<div class="work">
+				<a href="http://telus.com" target="blank">TELUS</a>
+			</div><!-- end of work -->
+			<div class="position">
+				<a href="#">Supply Coordinator</a>
+			</div><!-- end of position -->
+			<div class="year">
+				<span><em>(2011-2013)</em></span>
+			</div><!-- end of year -->
+				<ul class="bullets">
+					<li>Portfolio consisting of 50+ French Canada corporate stores across Toronto, Montreal and Quebec.
+					</li>
+					<li>Manage Product launches based on allocated inventory for corporate channels and national retailers.
+					</li>
+					<li>Lead on Real Estate support for new store openings and closures.
+					</li>
+				</ul>
+
+				<div class="work">
+					<a href="http://telus.com" target="blank">TELUS</a>
+				</div><!-- end of work -->
+				<div class="position">
+					<a href="#">Material Analyst</a>
+				</div><!-- end of position -->
+				<div class="year">
+					<span><em>(2008-2011)</em></span>
+				</div><!-- end of year -->
+					<ul class="bullets">
+						<li>Responsible for forecasting sales and inventory data to ensure appropriate allocation of smart phones to corporate stores.
+						</li>
+						<li>Established weekly high level report to ensure the execution of sales and promotional initiatives.
+						</li>
+						<li>Effectively worked with corporate stores to resolve inventory complaints, issues and suggestions.
+						</li>
+						<li>Responsible for support and management of inventories to the corporate retail channel via SAP.</li>
+						<li>HSPA network launch in 2009.</li>
+						<li>Apple iPhone 4 launch in corporate channel.</li>
+						<li>Use SAP MRP coding for all active and discontinued sku's across corporate stores</li>
+					</ul>
+
+					<div class="work">
+						<a href="http://telus.com" target="blank">TELUS</a>
+					</div><!-- end of work -->
+					<div class="position">
+						<a href="#">Logistics Associate</a>
+					</div><!-- end of position -->
+					<div class="year">
+						<span><em>(2007-2008)</em></span>
+					</div><!-- end of year -->
+						<ul class="bullets">
+							<li>Responsible for providing retail partners with superior results and exceptional service for all mobile repair-related processes and requests.
+							</li>
+							<li>Prime for mediation of repair strategies between retail partner and vendor repair partners.
+							</li>
+							<li>Achieved Certificate of Excellence in Effective Resolutions for Escalated Repair issues.
+							</li>
+						</ul>
+	</div><!-- end of container -->
+
+	
+</body>
+</html>
